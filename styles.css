@@ -67,6 +67,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    text-transform: uppercase;
     transition: opacity 0.3s;
 }
 
@@ -315,6 +316,7 @@ body {
     font-weight: 700;
     color: var(--white);
     margin-bottom: 40px;
+    text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -571,20 +573,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
     color: var(--white);
     text-decoration: none;
     border-radius: 50%;
-    font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     transition: all 0.3s;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .social-icon:hover {
     background-color: var(--gold);
     border-color: var(--gold);
     transform: translateY(-3px);
+    color: var(--white);
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: right;
 }
 
 /* Responsive */
